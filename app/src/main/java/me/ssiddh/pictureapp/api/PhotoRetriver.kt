@@ -11,7 +11,7 @@ class PhotoRetriver {
 
     init {
         val retrofit = Retrofit.Builder()
-                .baseUrl("https://pixabay.com/api")
+                .baseUrl("https://pixabay.com/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
